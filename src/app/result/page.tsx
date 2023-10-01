@@ -18,7 +18,7 @@ const page = () => {
   const router = useRouter()
   
   return (
-    <div className='flex flex-col bg-gradient-to-r from-violet-600 to-indigo-600 h-screen px-3 gap-3'>
+    <div className='flex flex-col bg-gradient-to-r from-violet-600 to-indigo-600 h-screen px-3 gap-[16px]'>
        <div className='nav '><h1 className='text-center text-xl text-white'>Result</h1></div> 
        <div className='image  object-contain mx-auto rounded-lg'>
          <img 
