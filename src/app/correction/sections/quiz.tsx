@@ -46,13 +46,13 @@ const Quiz = () => {
       <ul>
         {questions[CurrentQuestion].options.map((option:any, index:any) => (
           <li
-           className={` p-3 mb-3 rounded-lg  ${(checker(option?.text,CurrentQuestion) && (option.isCorrect==="true")) || (option.isCorrect==="true") ?'bg-[green] text-white':'bg-red-500'} ${checker(option?.text,CurrentQuestion)?'':' bg-white text-black'} `} 
+           className={` p-3 mb-3 rounded-lg  ${(checker(option?.text,CurrentQuestion) && (option.isCorrect==="true")) || (option.isCorrect==="true") ?'bg-green-600 text-white':'bg-red-500'} ${checker(option?.text,CurrentQuestion)?'':' bg-white text-black'} `} 
             key={index}>
             {option.text}
           </li>
         ))}
       </ul>
-      <div className='flex flex-row gap-4 w-[70%] mt-[10%] mx-auto'>
+      <div className='flex flex-row gap-4 w-[70%] mt-[10%] mx-auto mr-[16px]'>
         <button 
           onClick={() =>  {console.log(AnswerSheet) 
             dispatch(handlePrev())}}
