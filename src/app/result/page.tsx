@@ -26,16 +26,16 @@ const page = () => {
           src='/result.jpg' />
         </div>
        <div className='result__details flex flex-row gap-[2px]'>
-          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center  mt-[16px]'>
-              <div className='h-[60%]'>
+          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center  mt-[16px] mr-[2px]'>
+              <div className='h-[60%] w-full'>
               <img 
                 className='object-contain rounded-lg'
                 src='/questions.png' />
               </div>
               <p className='text-center text-indigo-500'> Questions {questions.length}</p>
           </div>
-          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center  mt-[16px]'>
-          <div className='h-[60%]'>
+          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center  mt-[16px] mr-[2px]'>
+          <div className='h-[60%] w-full'>
               <img 
                 className='object-contain rounded-lg'
                 src='/check.png' />
@@ -43,7 +43,7 @@ const page = () => {
               <p className='text-center text-indigo-500'> Answer {AnswerSheet.length}</p>
           </div>
           <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center mt-[16px]'>
-          <div className='h-[60%]'>
+          <div className='h-[60%] w-full'>
               <img 
                 className='object-conver rounded-lg'
                 src='/percentage.png' />
@@ -59,7 +59,7 @@ const page = () => {
        <div className='button flex flex-row justify-between gap-2'>
         <button 
            onClick={()=>router.push('/correction')}
-         className='p-2 border border-white w-full rounded-lg bg-white text-indigo-500'
+         className='p-2 border border-white w-full rounded-lg bg-white text-indigo-500 mr-[8px]'
          >Review
         </button>
         <button
