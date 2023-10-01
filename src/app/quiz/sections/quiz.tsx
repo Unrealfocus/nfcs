@@ -77,7 +77,7 @@ const Quiz = () => {
       <ul>
         {questions[CurrentQuestion].options.map((option:any, index:any) => (
           <li
-           className={` p-3 mb-3 rounded-lg ${checker(option?.text,CurrentQuestion)?'bg-green-600 text-white':''}  bg-white text-black`} 
+           className={` p-3 mb-3 rounded-lg ${checker(option?.text,CurrentQuestion)?'bg-black text-white':''}  bg-white text-black`} 
             key={index} onClick={() => sendAnswer(option.text)}>
             {option.text}
           </li>

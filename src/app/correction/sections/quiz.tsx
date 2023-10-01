@@ -46,17 +46,17 @@ const Quiz = () => {
       <ul>
         {questions[CurrentQuestion].options.map((option:any, index:any) => (
           <li
-           className={` p-3 mb-3 rounded-lg  ${(checker(option?.text,CurrentQuestion) && (option.isCorrect==="true")) || (option.isCorrect==="true") ?'bg-green-600 text-white':'bg-red-500'} ${checker(option?.text,CurrentQuestion)?'':' bg-white text-black'} `} 
+           className={` p-3 mb-3 rounded-lg  ${(checker(option?.text,CurrentQuestion) && (option.isCorrect==="true")) || (option.isCorrect==="true") ?'bg-black text-white':'bg-red-500'} ${checker(option?.text,CurrentQuestion)?'':' bg-white text-black'} `} 
             key={index}>
             {option.text}
           </li>
         ))}
       </ul>
-      <div className='flex flex-row gap-4 w-[70%] mt-[10%] mx-auto mr-[16px]'>
+      <div className='flex flex-row gap-4 w-[70%] mt-[10%] mx-auto'>
         <button 
           onClick={() =>  {console.log(AnswerSheet) 
             dispatch(handlePrev())}}
-         className='w-full text-red-500 font-bold bg-white p-3 mr-[px]'>Prev</button>
+         className='w-full text-red-500 font-bold bg-white p-3  mr-[16px]'>Prev</button>
         <button 
           onClick={() => dispatch(handleNext())}
          className='w-full text-green-500 bg-white font-bold p-3'>Next</button>
