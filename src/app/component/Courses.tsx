@@ -4,7 +4,7 @@ const Courses = () => {
   return (
     <div>
         <div className='text-center text-3xl mb-[5%] font-bold'>Courses</div>
-        <div className="md:grid md:grid-cols-3 gap-[16px] flex flex-col  w-full ">
+        <div className="md:grid md:grid-cols-3  flex flex-col  w-full ">
             <div className='border-white border-2 shadow-md  w-3/3 h-[300px] flex flex-col text-3xl text-white  rounded-xl'>
             <img src="/Mat121.jpeg" alt="billing" className="w-[100%] h-[70%] object-contain relative rounded-xl " />
              <div className='text-xl text-center rounded-t-xl shadow-t-md h-full bg-gradient-to-r from-violet-600 to-indigo-600  border-white border-t-2 shadow-t-md -translate-y-2 z-[5]'>
@@ -15,7 +15,7 @@ const Courses = () => {
              </div>
             </div>
 
-            <div className='border-white border-2 shadow-md  w-3/3 h-[300px] flex flex-col text-3xl text-white  rounded-xl'>
+            <div className='border-white border-2 shadow-md  w-3/3 h-[300px] flex flex-col text-3xl text-white  rounded-xl mt-[16px]'>
             <img src="/Phy123.jpg" alt="billing" className="w-[100%] h-[70%] object-contain relative rounded-xl " />
              <div className='text-xl text-center rounded-t-xl shadow-t-md h-full bg-gradient-to-r from-violet-600 to-indigo-600 border-white border-t-2 shadow-t-md -translate-y-2 z-[5]'>
                <h1 className='mb-[15px] text-white font-bold'>PHY123</h1>
@@ -27,7 +27,7 @@ const Courses = () => {
 
             
 
-            <div className='border-white border-2 shadow-md  w-3/3 h-[300px] flex flex-col text-3xl text-white  rounded-xl'>
+            <div className='border-white border-2 shadow-md  w-3/3 h-[300px] flex flex-col text-3xl text-white  rounded-xl mt-[16px]'>
             <img src="/Chm121.jpg" alt="billing" className="w-[100%] h-[70%] object-cover relative rounded-xl " />
              <div className='text-xl text-center rounded-t-xl shadow-t-md h-full bg-gradient-to-r from-violet-600 to-indigo-600 border-white border-t-2 shadow-t-md -translate-y-2 z-[5]'>
                <h1 className='mb-[15px] text-white font-bold'>CMH121</h1>
@@ -37,7 +37,7 @@ const Courses = () => {
              </div>
             </div>
 
-            <div className='border-white border-2 shadow-md  w-3/3 h-[300px] flex flex-col text-3xl text-white  rounded-xl'>
+            <div className='border-white border-2 shadow-md  w-3/3 h-[300px] flex flex-col text-3xl text-white  rounded-xl mt-[16px]'>
             <img src="/GST103.jpg" alt="billing" className="w-[100%] h-[70%] object-cover relative rounded-xl " />
              <div className='text-xl text-center rounded-t-xl shadow-t-md h-full bg-gradient-to-r from-violet-600 to-indigo-600 border-white border-t-2 shadow-t-md -translate-y-2 z-[5]'>
                <h1 className='mb-[15px] text-white font-bold'>GST121</h1>

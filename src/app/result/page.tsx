@@ -18,15 +18,15 @@ const page = () => {
   const router = useRouter()
   
   return (
-    <div className='flex flex-col bg-gradient-to-r from-violet-600 to-indigo-600 h-screen px-3 gap-[16px]'>
+    <div className='flex flex-col bg-gradient-to-r from-violet-600 to-indigo-600 h-screen px-3 '>
        <div className='nav '><h1 className='text-center text-xl text-white'>Result</h1></div> 
        <div className='image  object-contain mx-auto rounded-lg'>
          <img 
           className='object-contain rounded-lg'
           src='/result.jpg' />
         </div>
-       <div className='result__details flex flex-row gap-1'>
-          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center'>
+       <div className='result__details flex flex-row gap-[2px]'>
+          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center  mt-[16px]'>
               <div className='h-[60%]'>
               <img 
                 className='object-contain rounded-lg'
@@ -34,7 +34,7 @@ const page = () => {
               </div>
               <p className='text-center text-indigo-500'> Questions {questions.length}</p>
           </div>
-          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center p-2'>
+          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center  mt-[16px]'>
           <div className='h-[60%]'>
               <img 
                 className='object-contain rounded-lg'
@@ -42,7 +42,7 @@ const page = () => {
               </div>
               <p className='text-center text-indigo-500'> Answer {AnswerSheet.length}</p>
           </div>
-          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center p-2'>
+          <div className='w-1/3  bg-white border rounded-lg flex flex-col text-center mt-[16px]'>
           <div className='h-[60%]'>
               <img 
                 className='object-conver rounded-lg'
