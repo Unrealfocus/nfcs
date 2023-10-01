@@ -56,7 +56,7 @@ const Quiz = () => {
         <button 
           onClick={() =>  {console.log(AnswerSheet) 
             dispatch(handlePrev())}}
-         className='w-full text-red-500 font-bold bg-white p-3 mr-[16px]'>Prev</button>
+         className='w-full text-red-500 font-bold bg-white p-3 mr-[px]'>Prev</button>
         <button 
           onClick={() => dispatch(handleNext())}
          className='w-full text-green-500 bg-white font-bold p-3'>Next</button>
